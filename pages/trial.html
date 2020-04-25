@@ -5,6 +5,87 @@
 <title> My Page
 </title>
 
+<style> 
+header {
+	font: 2px;
+	color: blue;
+	text-align: center;
+}
+
+
+h1 {
+
+	font-size: 50px;
+	text-align: center;
+	color: #3a6070;
+
+}
+
+#mybio
+{
+	background-color: grey;
+	color: black;
+}
+
+ div,span {
+
+	color: darkblue;
+	text-align: center;
+
+}
+
+span {
+	text-align: center;
+}
+
+section > article:hover
+{
+
+	color: red;
+
+}
+section {
+
+color: grey;
+
+}
+div li {
+	text-align: left;
+}
+
+div a:hover{
+	color: red;
+	text-align: center;
+	background-color: yellow;
+	text-decoration: none;
+}
+
+#unique
+{
+	color: hotpink;
+	text-decoration: none;
+
+}
+
+#unique:hover{
+
+	background-color:lightblue;
+	text-decoration: none;
+}
+
+aside,footer
+{
+	color: grey;
+
+}
+
+div.noon
+{
+color: green;
+
+}
+
+</style>
 	</head>
 <body> 
 	<header> So here are bunch of cartoon i watched growing up
@@ -12,13 +93,14 @@
 
 </header>
 <h1 id="top">My Favourites</h1>
-<section id="my bio">
+<section id="mybio">
 	<p>
 	   heres my bioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 	</p>
 </section>
 <div>Early Morning shows</div>
-<span>like the one's before school</span>
+<div>
+<span>like the one's before school</span></div>
 <section>
 	<article>Thomas & his Friends</article>
 	<article>Bob the builder</article>
@@ -26,7 +108,7 @@
 </section>
 
 <div> <span>   </span></div>
-<div>Afternoon shows</div>
+<div class="noon">Afternoon shows</div>
 <section>
 	<article>Oswald </article>
 	<article>Noddy and his friends</article>
@@ -52,7 +134,7 @@
 
 	</ol>
 	<a href="https://www.cnet.com/news/every-series-of-power-rangers-explained/" target="_blank" title="All power Rangers">
-		<div> Link to all of them</div>
+		<div id="unique"> Link to all of them</div>
 	</a>
 	</li>
 	<li>pokemon</li>
@@ -64,11 +146,12 @@
 
 <aside>&quot;These are my some of my childhood tv shows which i love &gt; than&nbsp;new&nbsp;ones&quot;</aside>
 <footer>2020 &copy; Copyrights
-	<p>
+	<div><p>
 <a href="#top" title="top page" >Back to top </a>
 
 </p>
-<a href="#my bio" title="BIOO" >BIOOO </a>
+<a href="#mybio" title="BIOO" >BIOOO </a>
+</div>
 
 </footer>
  </body>
