@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	margin-bottom: 16px;
+	text-align: center;
+	font-size: 200%;
+}
+.row{
+	width: 100%;
+}
+#first{
+	background-color: grey;
+	border: 1px solid black;
+	color: black;
+	height: 170px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	padding: auto;
+
+		
+
+
+}
+#second{
+	background-color: grey;
+	border: 1px solid black;
+	color: black;
+	height: 170px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	padding: auto;
+
+
+
+}
+#third{
+	background-color: grey;
+	border: 1px solid black;
+	color: black;
+	height: 170px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding: auto;
+
+
+}
+.small_box1
+{
+	font-size: 125%;
+	background-color: #FF5733;
+	position: relative;
+    text-align: center;
+	width: 100px;
+	height: 40px;
+	float: right;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+	border-top: 0;
+	border-right: 0;
+}
+.small_box2
+{
+	font-size: 125%;
+	background-color: #3ABEE5;
+	position: relative;
+    text-align: center;
+	width: 100px;
+	height: 40px;
+	float: right;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+	border-top: 0;
+	border-right: 0;
+}
+
+.small_box3
+{
+	font-size: 125%;
+	background-color: #29EA69;
+	position: relative;
+    text-align: center;
+	width: 100px;
+	height: 40px;
+	float: right;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+	border-top: 0;
+	border-right: 0;
+}
+
+.txt{
+	clear: right;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+}
+
+@media (min-width: 992px)
+{
+	/*for desktop*/
+	.col-d{
+		float: left;
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	/*for tablet*/
+	.col-t{
+		float: left;
+		width: 50%;
+	}
+
+	.col-thir{
+		width: 100%;
+	}
+
+	#third{
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 767px)
+{
+	/*for mobile*/
+	.col-m{
+		float: left;
+		width: 100%;
+	}
+}

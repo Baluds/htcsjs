@@ -1,0 +1,18 @@
+div{
+ box-sizing: border-box;
+ background-color: red;
+ border: 1px solid black;
+ width: 50%; /* */  /* assigning this div alf of the screen we can use % or even pix*/
+ float: left;  /* the div floates from html flow to left   */
+
+}
+
+
+.sup{
+	width: 100%;
+}
+
+.second{
+	clear:left;  /*nothing on the left of this second div should be present*/
+	float: right;
+}
