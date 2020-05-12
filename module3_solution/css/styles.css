@@ -1,0 +1,91 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #58B4AE;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #FFE2BC;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Volkhov', serif;
+  color: #FFB367;
+  font-size: 1.7em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #58B4AE;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+.padi{
+  padding-bottom: 10px;
+}
+.colorji{
+  background-color: #FFE277;
+}
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: #58B4AE;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.headi{
+  color: #ffb367;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.row{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.msec{
+  background-color: #ffb367;
+  color: black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+
+}
+.txt{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.headi2{
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 15px;
+}
