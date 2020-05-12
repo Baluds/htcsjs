@@ -10,6 +10,10 @@
 **/css/bootstrap-reboot.css.map
 **/css/bootstrap-reboot.min.css
 **/css/bootstrap-reboot.min.css.map
+**/css/bootstrap-theme.css
+**/css/bootstrap-theme.css.map
+**/css/bootstrap-theme.min.css
+**/css/bootstrap-theme.min.css.map
 **/js/bootstrap.bundle.js
 **/js/bootstrap.bundle.js.map
 **/js/bootstrap.bundle.min.js
@@ -19,4 +23,6 @@
 **/js/bootstrap.min.js
 **/js/bootstrap.min.js.map
 **/js/jquery-3.5.1.min.js
+**/js/npm.js
+
 
